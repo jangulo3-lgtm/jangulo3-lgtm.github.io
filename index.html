@@ -3,11 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Juan Angulo - Home</title>
+    <title>Juan Angulo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f4f6f8;
+            color: #222;
+        }
+        header {
+            background: #1a237e;
+            color: #fff;
+            padding: 2rem 0 1rem 0;
+            text-align: center;
+            box-shadow: 0 2px 8px rgba(26,35,126,0.08);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+        }
+        header h2 {
+            margin: 0.5rem 0 0 0;
+            font-weight: 400;
+            font-size: 1.3rem;
+        }
+        main {
+            max-width: 600px;
+            margin: 2rem auto;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+            padding: 2rem;
+        }
+        main p {
+            font-size: 1.1rem;
+            margin-bottom: 1.5rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #1a237e;
+            color: #fff;
+            font-size: 1rem;
+            margin-top: 2rem;
+            box-shadow: 0 -2px 8px rgba(26,35,126,0.08);
+        }
+        nav.bottom-links {
+            margin-top: 2.5rem;
+            text-align: center;
+        }
+        nav.bottom-links ul {
+            display: inline-block;
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav.bottom-links li {
+            display: inline;
+            margin: 0 0.5rem;
+        }
+        nav.bottom-links a {
+            text-decoration: none;
+            color: #3949ab;
+            font-weight: 500;
+            font-size: 1rem;
+            padding: 0.3rem 0.8rem;
+            border-radius: 4px;
+            transition: background 0.2s, color 0.2s;
+            border: 1px solid transparent;
+        }
+        nav.bottom-links a:hover, nav.bottom-links a:focus {
+            background: #e3e7fd;
+            color: #0d133d;
+            border: 1px solid #c5cae9;
+        }
+        @media (max-width: 700px) {
+            main {
+                margin: 1rem;
+                padding: 1rem;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+            nav.bottom-links ul {
+                display: block;
+            }
+            nav.bottom-links li {
+                display: block;
+                margin: 0.5rem 0;
+            }
+        }
+    </style>
 </head>
+
 <body>
-    <h2>I'm Juan Angulo and this is the root of my website</h2>
-    <h2> Welcome to my personal Homepage</h2>
-    <a href="itis3135/">Click to go to ITIS3135 Site</a>
+    <header>
+        <h1>Juan Angulo</h1>
+        <h2>Welcome to my personal Homepage</h2>
+    </header>
+    <main>
+        <section>
+            <p>I'm Juan Angulo and this is the root of my website.</p>
+        </section>
+        <nav class="bottom-links" aria-label="Important Links">
+            <ul>
+                <li><a href="https://github.com/jangulo3-lgtm" target="_blank" rel="noopener">GitHub.com</a></li>
+                <li><a href="https://webpages.charlotte.edu/jangulo3/" target="_blank" rel="noopener">CLT Web</a></li>
+                <li><a href="https://jangulo3-lgtm.github.io/" target="_blank" rel="noopener">GitHub.io</a></li>
+                <li><a href="itis3135/" target="_blank" rel="noopener">ITIS3135</a></li>
+                <li><a href="https://www.linkedin.com/in/juan-angulo-a31826383" target="_blank" rel="noopener">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </main>
+    <footer>
+        <p>&copy; 2025 Juan Angulo</p>
+    </footer>
 </body>
-</html>
+</html>    
+
